@@ -9,7 +9,7 @@ int main()
     int i = 0;
 
     printf("Enter a number: ");
-    scanf_s("%s", number);
+    scanf_s("%s", &number);
     while (number[i++] != '\0')
     {
         if (number[i] == '.')
